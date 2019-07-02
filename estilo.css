@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+   
+background: linear-gradient(#dae2e1,#ffffff);
+
+}
+
+h1{
+	font-weight: 400;	
+}
+
+h2,h3,h4,h5,h6,strong{
+	font-family: 'Righteous', sans-serif;
+	font-weight: 700;	
+}
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: white;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://secure.img1-fg.wfcdn.com/im/06313043/resize-h800-w800%5Ecompr-r85/8992/8992103/World+Clocks+15%2527+x+27%2527%2527+Wallpaper.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://americasaves.org/images/article/Dollar%20Bills.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://www.newdelhitimes.com/wp-content/uploads/2019/02/fire-2821775_960_720.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://www.enel.com/es/medios/news/d/2019/01/enel-focus-on-santiago-chile-transporte-publico-electrico/_jcr_content/carousel/items/image.img.jpg/1547470176156.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:red;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+}
+
+button.navbar-toggler{
+	border:none;
+}
